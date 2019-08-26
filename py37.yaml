@@ -1,0 +1,29 @@
+# conda environment description file for my general py37
+# development environment
+#
+#
+#   $ conda env create -f ~/conda-envs/py37.yaml
+#   $ conda activate py37
+#
+#   to add a package (when env is activated)
+#   1) add to list below
+#   $ conda env update -f ~/conda-envs/py37.yaml
+
+name: py37
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - arrow
+  - matplotlib
+  - netCDF4
+  - pip
+  - python=3.7
+  - python-dateutil
+  - scipy
+  - xarray
+
+#  - pip:
+#      - angles
